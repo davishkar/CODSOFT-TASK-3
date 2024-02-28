@@ -18,7 +18,7 @@ This is a basic calculator project created using HTML, CSS, and JavaScript. It p
 
 1. Clone the repository to your local machine:
 ```
-git clone https://github.com/your-username/personal-portfolio.git
+git clone https://github.com/davishkar/CODSOFT-TASK-3.git
 ```
 
 2. Open the `index.html` file in your web browser to launch the calculator.
