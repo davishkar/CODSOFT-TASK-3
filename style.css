@@ -1,0 +1,75 @@
+body {
+    font-family: "IBM Plex Mono", monospace;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+}
+
+.display {
+    background-color: #fff;
+    color: #333;
+    font-size: 2em;
+    padding: 20px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ced4da;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #adb5bd;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.equals {
+    grid-column: span 3;
+    background-color: #20c997;
+    color: #fff;
+}
+
+.clear {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.backspace {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.button {
+    border-radius: 50%;
+    padding: 18px;
+    font-size: 1.5em;
+}
