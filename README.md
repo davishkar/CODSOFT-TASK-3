@@ -1,7 +1,7 @@
 # CODSOFT-TASK-3
 LEVEL 1 
 
-# Basic Calculator Project [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=livechat)](https://www.example.com)
+# Basic Calculator Project [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=livechat)](https://davishkar.github.io/CODSOFT-TASK-3/)
 
 
 This is a basic calculator project created using HTML, CSS, and JavaScript. It provides a simple interface for performing addition, subtraction, multiplication, and division operations.
